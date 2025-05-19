@@ -1,3 +1,4 @@
+// Java program
 class student {
     void show() { System.out.println("student's show())
 }
