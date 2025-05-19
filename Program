@@ -1,10 +1,10 @@
-class Parent {
-    void show() { System.out.println("Parent's show())
+class student {
+    void show() { System.out.println("student's show())
 }
  
 // Inherited class
 class Child extends {
-    // This method overrides show() of Parent
+    // This method overrides show() of student
     @Override void sho()
     {
         System.out.println( Child's show());
@@ -16,16 +16,16 @@ class Main {
     public static void main(String[] args)
     {
         // If a Parent type reference refers
-        // to a Parent object, then Parent's
+        // to a Parent object, then student's
         // show is called
-        Parent obj1 = new Parent()
+        student obj1 = new student()
         obj1.show();
  
-        // If a Parent type reference refers
+        // If a student type reference refers
         // to a Child object Child's show()
         // is called. This is called RUN TIME
         // POLYMORPHISM.
-        Parent obj2 = new Child()
+        student obj2 = new Child()
         obj.show();
     }
 }
